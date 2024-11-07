@@ -1,0 +1,19 @@
+[project]
+name = "pypelines-integration-demo"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "JostTim",email = "44769559+JostTim@users.noreply.github.com"},
+]
+dependencies = [
+    "alyx-connector>=2.1.15",
+    "processing-pypelines>=0.0.66",
+    "notebook>=7.2.2",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
